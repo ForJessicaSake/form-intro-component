@@ -34,8 +34,7 @@ function Form() {
   });
   return (
     <main className="md:bg-[url('/images/bg-intro-desktop.png')] bg-[url('/images/bg-intro-mobile.png')] bg-[#ff7879] bg-cover min-h-[100vh] lg:pt-10 pt-14 px-10 lg:px-20">
-     Yup
-      <div className="mx-auto container flex lg:flex-row flex-col justify-between items-center gap-5">
+=      <div className="mx-auto container flex lg:flex-row flex-col justify-between items-center gap-5">
         <div className="lg:w-6/12 lg:text-left text-center">
           <h1 className="lg:text-5xl text-3xl sm:text-4xl lg:max-w-lg font-bold text-[#fffffe]">
             Learn to code by watching others

@@ -21,7 +21,7 @@ function Form() {
         .required("Password is required")
         .min(6, "Password must be at least 6 characters"),
       confirmPassword: Yup.string()
-        .required("Password is required")
+        .required("Password Confirmation is required")
         .oneOf(
           [Yup.ref("password"), null],
           "Confirm password must match password"

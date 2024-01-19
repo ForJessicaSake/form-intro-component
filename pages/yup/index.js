@@ -51,7 +51,7 @@ function Form() {
             style={{ boxShadow: "0px 5px 5px 0px rgba(0,0,0,0.55)" }}
           >
             <p>
-              <span className="font-semibold">Try it free 7days</span> then
+              <span className="font-bold">Try it free 7days</span> then
               $20/mo. thereafter
             </p>
           </div>
@@ -147,7 +147,7 @@ function Form() {
             </button>
             <p className="text-[#d8d7e5] text-sm text-center">
               By clicking this button, you are agreeing to our{" "}
-              <span className="text-[#ff7879] font-semibold">
+              <span className="text-[#ff7879] font-bold">
                 Terms and Services
               </span>
             </p>

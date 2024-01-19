@@ -75,7 +75,7 @@ function Home() {
                 value={formik.values.firstName}
                 onChange={formik.handleChange}
                 onBlur={formik.handleBlur}
-                className="border border-[#f3f2f2] rounded-lg p-3 w-full placeholder:font-medium placeholder:text-[#858484]"
+                className="border border-[#f3f2f2]  text-black rounded-lg p-3 w-full placeholder:font-medium placeholder:text-[#858484]"
               />
             </label>
             <p className="text-sm text-[#ff7879]">
@@ -91,7 +91,7 @@ function Home() {
                 name="lastName"
                 value={formik.values.lastName}
                 onChange={formik.handleChange}
-                className="border border-[#f3f2f2] rounded-lg p-3 w-full placeholder:font-medium placeholder:text-[#858484]"
+                className="border border-[#f3f2f2]  text-black rounded-lg p-3 w-full placeholder:font-medium placeholder:text-[#858484]"
               />
             </label>
             <p className="text-sm text-[#ff7879]">
@@ -108,7 +108,7 @@ function Home() {
                 value={formik.values.email}
                 onChange={formik.handleChange}
                 onBlur={formik.handleBlur}
-                className="border border-[#f3f2f2] rounded-lg p-3 w-full placeholder:font-medium placeholder:text-[#858484]"
+                className="border border-[#f3f2f2]  text-black rounded-lg p-3 w-full placeholder:font-medium placeholder:text-[#858484]"
               />
             </label>
             <p className="text-sm text-[#ff7879]">
@@ -123,7 +123,7 @@ function Home() {
                 value={formik.values.password}
                 onChange={formik.handleChange}
                 onBlur={formik.handleBlur}
-                className="border border-[#f3f2f2] rounded-lg p-3 w-full placeholder:font-medium placeholder:text-[#858484]"
+                className="border border-[#f3f2f2]  text-black rounded-lg p-3 w-full placeholder:font-medium placeholder:text-[#858484]"
               />
             </label>
             <p className="text-sm text-[#ff7879]">
@@ -140,7 +140,7 @@ function Home() {
                 value={formik.values.confirmPassword}
                 onChange={formik.handleChange}
                 onBlur={formik.handleBlur}
-                className="border border-[#f3f2f2] rounded-lg p-3 w-full placeholder:font-medium placeholder:text-[#858484]"
+                className="border border-[#f3f2f2]  text-black rounded-lg p-3 w-full placeholder:font-medium placeholder:text-[#858484]"
               />
             </label>
 

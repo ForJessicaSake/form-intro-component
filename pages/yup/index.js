@@ -21,10 +21,10 @@ function Form() {
         .required("Password is required")
         .min(6, "Password must be at least 6 characters"),
       confirmPassword: Yup.string()
-        .required("Password confirmation is required")
+        .required("Password is required")
         .oneOf(
           [Yup.ref("password"), null],
-          "Password confirmation must match password"
+          "Confirm password must match password"
         ),
     }),
 
@@ -34,7 +34,7 @@ function Form() {
   });
   return (
     <main className="md:bg-[url('/images/bg-intro-desktop.png')] bg-[url('/images/bg-intro-mobile.png')] bg-[#ff7879] bg-cover min-h-[100vh] lg:pt-10 pt-14 px-10 lg:px-20">
-     <div className="mx-auto container flex lg:flex-row flex-col justify-between items-center gap-5">
+     <div className="mx-auto container h-full flex lg:flex-row flex-col justify-between items-center gap-5">
         <div className="lg:w-6/12 lg:text-left text-center">
           <h1 className="lg:text-5xl text-3xl sm:text-4xl lg:max-w-lg font-bold text-[#fffffe]">
             Learn to code by watching others
@@ -68,7 +68,7 @@ function Form() {
                 value={formik.values.firstName}
                 onChange={formik.handleChange}
                 onBlur={formik.handleBlur}
-                className="border border-[#f3f2f2] rounded-lg p-3 w-full placeholder:font-medium placeholder:text-[#858484]"
+                className="border border-[#f3f2f2]  text-black rounded-lg p-3 w-full placeholder:font-medium placeholder:text-[#858484]"
               />
             </label>
             <p className="text-sm text-[#ff7879]">
@@ -84,7 +84,7 @@ function Form() {
                 name="lastName"
                 value={formik.values.lastName}
                 onChange={formik.handleChange}
-                className="border border-[#f3f2f2] rounded-lg p-3 w-full placeholder:font-medium placeholder:text-[#858484]"
+                className="border border-[#f3f2f2]  text-black rounded-lg p-3 w-full placeholder:font-medium placeholder:text-[#858484]"
               />
             </label>
             <p className="text-sm text-[#ff7879]">
@@ -101,7 +101,7 @@ function Form() {
                 value={formik.values.email}
                 onChange={formik.handleChange}
                 onBlur={formik.handleBlur}
-                className="border border-[#f3f2f2] rounded-lg p-3 w-full placeholder:font-medium placeholder:text-[#858484]"
+                className="border border-[#f3f2f2]  text-black rounded-lg p-3 w-full placeholder:font-medium placeholder:text-[#858484]"
               />
             </label>
             <p className="text-sm text-[#ff7879]">
@@ -116,7 +116,7 @@ function Form() {
                 value={formik.values.password}
                 onChange={formik.handleChange}
                 onBlur={formik.handleBlur}
-                className="border border-[#f3f2f2] rounded-lg p-3 w-full placeholder:font-medium placeholder:text-[#858484]"
+                className="border border-[#f3f2f2]  text-black  rounded-lg p-3 w-full placeholder:font-medium placeholder:text-[#858484]"
               />
             </label>
             <p className="text-sm text-[#ff7879]">
@@ -133,8 +133,8 @@ function Form() {
                 value={formik.values.confirmPassword}
                 onChange={formik.handleChange}
                 onBlur={formik.handleBlur}
-                className="border border-[#f3f2f2] rounded-lg p-3 w-full placeholder:font-medium placeholder:text-[#858484]"
-              />
+                className="border border-[#f3f2f2]  text-black  rounded-lg p-3 w-full placeholder:font-medium placeholder:text-[#858484]"
+              /> 
             </label>
 
             <p className="text-sm text-[#ff7879]">
